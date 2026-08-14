@@ -1,5 +1,9 @@
 # Obsidian KB Builder
 
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-orange.svg)
+
 面向 Claude Code 的 Agent Skill，用于构建和维护个人 Obsidian 知识库。
 
 ## 定位
