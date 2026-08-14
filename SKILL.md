@@ -19,7 +19,7 @@ description: 构建和维护个人 Obsidian 知识库 — 目录结构、笔记�
 
 ```
 Vault/
-├── 0-首页.md          ← 库的总入口（数字-名字，排在所有目录前）
+├── 0-首页.md          ← 库的总入口（数字-名字，排在所有目录前）0-首页如果想置于所有文件夹之首，需要在 Obsidian 中下载插件。
 ├── 1-收纳/            ← 收纳区
 │   ├── 1-收件箱/      ← 快速捕获，待分类
 │   ├── 2-项目/        ← 活跃项目
@@ -107,7 +107,7 @@ Vault/
 | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Obsidian 语法/Canvas/Bases 的细粒度 skill | 推荐（`/plugin marketplace add kepano/obsidian-skills`） |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Agent 浏览器自动化，用于网页搜索与内容提取 | 推荐（搜索资源的可选增强，`npx @playwright/mcp@latest`） |
 
-> 若运行时检测到缺少上述依赖，**先提示用户安装并给出命令，不自动安装**。
+> 若运行时检测到缺少上述依赖，Agent 应先检查是否需要安装。
 
 ## References
 

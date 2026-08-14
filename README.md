@@ -26,7 +26,7 @@
 | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Obsidian 语法、Canvas、Bases 的细粒度 Skill | `/plugin marketplace add kepano/obsidian-skills` |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Agent 浏览器自动化，用于网页搜索与内容提取 | `npx @playwright/mcp@latest` |
 
-> 若运行时检测到缺少上述依赖，Agent 应先提示用户安装并给出命令，不自动安装。
+> 若运行时检测到缺少上述依赖，Agent 应先检查是否需要安装。
 
 ## 安装
 
