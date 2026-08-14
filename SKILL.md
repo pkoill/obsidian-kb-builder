@@ -105,6 +105,7 @@ Vault/
 |------|------|--------|
 | [Obsidian CLI](https://obsidian.md/cli) | `obsidian search`/`backlinks`/`unresolved` 等 vault 操作 | 强烈推荐（Obsidian 1.12.7+，设置 → 选项 → 高级 → 命令行界面） |
 | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Obsidian 语法/Canvas/Bases 的细粒度 skill | 推荐（`/plugin marketplace add kepano/obsidian-skills`） |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Agent 浏览器自动化，用于网页搜索与内容提取 | 推荐（搜索资源的可选增强，`npx @playwright/mcp@latest`） |
 
 > 若运行时检测到缺少上述依赖，**先提示用户安装并给出命令，不自动安装**。
 
