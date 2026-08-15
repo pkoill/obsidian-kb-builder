@@ -21,7 +21,7 @@ Obsidian CLI 让 agent 用命令行操作运行中的 Obsidian vault，比文件
 | 命令 | 作用 | 例子 |
 |------|------|------|
 | `unresolved` | 列出断链（指向不存在笔记的 wikilink） | `obsidian unresolved verbose` |
-| `orphans` | 列出孤儿文件（无反向链接） | `obsidian orphans` |
+| `orphans` | 列出孤立文件（无反向链接） | `obsidian orphans` |
 | `deadends` | 列出死胡同文件（无外向链接） | `obsidian deadends` |
 | `backlinks` | 查某文件的反向链接 | `obsidian backlinks file="6. 笔记名"` |
 | `links` | 查某文件的外向链接 | `obsidian links file="笔记名"` |
