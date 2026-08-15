@@ -14,7 +14,6 @@
 - **资源选择规则**：参考资源与实操建议的分区、分层与条数约束，以及学习计划类笔记的特例；
 - **计划类笔记结构**：步骤驱动，每步附学习资源与实操建议；
 - **健康检查**：断链、孤儿文件、重复待办、空任务等检查与修复流程；
-- **内置笔记模板**：学习笔记、项目、决策、沟通记录、周复盘 5 个模板，创建 vault 时直接复制套用；
 - **Obsidian CLI 集成**：通过命令行高效完成搜索、反向链接、属性操作等。
 
 ## 前置依赖
@@ -73,14 +72,13 @@ obsidian-kb-builder/
 ├── skills/
 │   └── obsidian-kb-builder/
 │       ├── SKILL.md             # Skill 主文件（核心原则 + 支持的操作 + 前置依赖）
-│       ├── references/
-│       │   ├── structure.md     # 目录结构与命名规范
-│       │   ├── writing.md       # 写作原则与笔记结构
-│       │   ├── resources.md     # 资源选择规则
-│       │   ├── operations.md    # 笔记创建/复盘/捕获/搜索操作流程
-│       │   ├── cli.md           # Obsidian CLI 命令表
-│       │   └── health-check.md  # 健康检查流程
-│       └── templates/           # 内置笔记模板（学习笔记、项目、决策、沟通记录、周复盘）
+│       └── references/
+│           ├── structure.md     # 目录结构与命名规范
+│           ├── writing.md       # 写作原则与笔记结构
+│           ├── resources.md     # 资源选择规则
+│           ├── operations.md    # 笔记创建/复盘/捕获/搜索操作流程
+│           ├── cli.md           # Obsidian CLI 命令表
+│           └── health-check.md  # 健康检查流程
 ├── README.md
 └── LICENSE
 ```
