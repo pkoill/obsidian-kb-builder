@@ -33,7 +33,7 @@
 ### 方式一：插件市场（推荐）
 
 ```
-/plugin marketplace add <本仓库地址>
+/plugin marketplace add pkoill/claude-marketplace
 /plugin install obsidian-kb-builder
 ```
 
