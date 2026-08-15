@@ -30,16 +30,23 @@
 
 ## 安装
 
-### 方式一：插件市场
+### 方式一：插件市场（推荐）
 
 ```
 /plugin marketplace add <本仓库地址>
 /plugin install obsidian-kb-builder
 ```
 
+更新到最新版（先刷新缓存，再更新）：
+
+```
+/plugin marketplace update
+/plugin update
+```
+
 ### 方式二：手动安装
 
-将本仓库的 `SKILL.md` 与 `references/` 目录复制到 Claude Code 的 skills 目录：
+将本仓库的 `skills/obsidian-kb-builder/` 目录（含 `SKILL.md` 与 `references/`）复制到 Claude Code 的 skills 目录：
 
 - 用户级：`~/.claude/skills/obsidian-kb-builder/`
 - 项目级：`.claude/skills/obsidian-kb-builder/`
@@ -60,14 +67,18 @@
 
 ```
 obsidian-kb-builder/
-├── SKILL.md                     # Skill 主文件（核心原则 + 支持的操作 + 前置依赖）
-├── references/
-│   ├── structure.md             # 目录结构与命名规范
-│   ├── writing.md               # 写作原则与笔记结构
-│   ├── resources.md             # 资源选择规则
-│   ├── operations.md            # 笔记创建/复盘/捕获/搜索操作流程
-│   ├── cli.md                   # Obsidian CLI 命令表
-│   └── health-check.md          # 健康检查流程
+├── .claude-plugin/
+│   └── plugin.json              # Plugin 清单（name / description / author）
+├── skills/
+│   └── obsidian-kb-builder/
+│       ├── SKILL.md             # Skill 主文件（核心原则 + 支持的操作 + 前置依赖）
+│       └── references/
+│           ├── structure.md     # 目录结构与命名规范
+│           ├── writing.md       # 写作原则与笔记结构
+│           ├── resources.md     # 资源选择规则
+│           ├── operations.md    # 笔记创建/复盘/捕获/搜索操作流程
+│           ├── cli.md           # Obsidian CLI 命令表
+│           └── health-check.md  # 健康检查流程
 ├── README.md
 └── LICENSE
 ```

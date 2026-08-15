@@ -1,0 +1,9 @@
+{
+  "name": "obsidian-kb-builder",
+  "version": "1.0.0",
+  "description": "从零构建和维护个人 Obsidian 知识库 — 目录结构、笔记二分法、命名规范、写作原则、资源规则、健康检查。",
+  "author": {
+    "name": "pkoill",
+    "email": "pkoill@users.noreply.github.com"
+  }
+}
