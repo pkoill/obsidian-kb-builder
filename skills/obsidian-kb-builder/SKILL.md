@@ -82,6 +82,20 @@ Vault/
 - 标签判断标准「大众熟知」：缩写、型号、工具名用英文（`STM32`、`GPIO`、`I2C`、`Python`、`MySQL`、`Git`、`CNN`等等），描述词用中文（`嵌入式`、`时钟`、`算法`、`网络`、`数据库`、`缓存`等）；英文缩写与中文概念可并存（`RCC` + `时钟`、`CNN` + `卷积`、`Redis` + `缓存`等）
 - 章节用 `##`/`###`，表格对比、代码块示例、引用块提示（详见 `references/writing.md`）
 
+## 笔记模板
+
+本 Skill 自带 5 个模板，位于 `templates/` 目录，新建 vault 时复制到 `1-收纳/模板/`：
+
+| 模板文件 | 用途 | 放置位置 |
+|----------|------|----------|
+| `tpl-note.md` | 学习笔记（问题解决笔记） | `2-学习笔记/` |
+| `tpl-project.md` | 项目笔记 | `1-收纳/2-项目/` |
+| `tpl-decision.md` | 决策记录 | 项目内 / `1-收纳/3-领域/` |
+| `tpl-meeting-log.md` | 沟通记录 | 关联项目内 |
+| `tpl-weekly-review.md` | 周复盘 | `4-周复盘/` |
+
+> 模板使用 Obsidian 模板占位符（`{{date}}`、`{{date:ww}}`、`{{title}}`），套用需启用 Templates 核心插件（或 Templater 插件），在 Obsidian 内「插入模板」时自动填充，不手填。
+
 ## 写作原则
 
 1. **结构：定义 → 原理 → 应用**——定义一句话，原理讲清「为什么」，应用给可直接参考的例子。
@@ -131,3 +145,4 @@ Vault/
 - `references/operations.md` — 笔记创建/复盘/捕获/搜索操作流程
 - `references/cli.md` — Obsidian CLI 命令表
 - `references/health-check.md` — 健康检查流程
+- `templates/` — 内置笔记模板（学习笔记、项目、决策、沟通记录、周复盘）
