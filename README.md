@@ -30,23 +30,13 @@
 
 ## 安装
 
-### 方式一：插件市场（推荐）
+本仓库以 Skill 形式发布，不依赖插件市场，克隆后手动复制即可：
 
 ```
-/plugin marketplace add pkoill/claude-marketplace
-/plugin install obsidian-kb-builder
+git clone https://github.com/pkoill/obsidian-kb-builder
 ```
 
-更新到最新版（先刷新缓存，再更新）：
-
-```
-/plugin marketplace update
-/plugin update
-```
-
-### 方式二：手动安装
-
-将本仓库的 `skills/obsidian-kb-builder/` 目录（含 `SKILL.md` 与 `references/`）复制到 Claude Code 的 skills 目录：
+将克隆下来的 `skills/obsidian-kb-builder/` 目录（含 `SKILL.md` 与 `references/`）复制到 Claude Code 的 skills 目录：
 
 - 用户级：`~/.claude/skills/obsidian-kb-builder/`
 - 项目级：`.claude/skills/obsidian-kb-builder/`
