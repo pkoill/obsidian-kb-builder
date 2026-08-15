@@ -26,7 +26,7 @@ Obsidian CLI 让 agent 用命令行操作运行中的 Obsidian vault，比文件
 | `backlinks` | 查某文件的反向链接 | `obsidian backlinks file="6. 笔记名"` |
 | `links` | 查某文件的外向链接 | `obsidian links file="笔记名"` |
 
-> 迁移/改名笔记后必做：`unresolved` 应为空；`orphans` 应只剩「首页、模板、附件、README」等本就不该被链接的文件。
+> 迁移/改名笔记后必做：`unresolved` 应为空；`orphans` 应只剩「首页、个人档案、附件、README」等本就不该被链接的文件。
 
 ## 内容操作命令
 
